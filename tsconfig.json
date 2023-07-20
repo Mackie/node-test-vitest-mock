@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020" ,
+    "module": "NodeNext" ,
+    "lib": [
+      "es6"
+    ] ,
+    "allowJs": true ,
+    "declaration": true,                  
+    "declarationMap": true,               
+    "outDir": "build" ,
+    "rootDir": "." ,
+    "composite": true,             
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,            
+    "strict": true ,
+    "noImplicitAny": true ,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,            
+    "moduleResolution": "node",     
+    "types": [
+      "vitest/globals",
+      "node"
+    ],
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    "preserveWatchOutput": true /* Whether to preserve output directory structure relative to project root directory. */,
+    "inlineSources": false,                 /* Emit the source alongside the sourcemaps within a single file; requires '--inlineSourceMap' or '--sourceMap' to be set. */
+    "skipLibCheck": true /* Skip type checking of declaration files. */
+  },
+  "exclude": [ "node_modules"]
+}
